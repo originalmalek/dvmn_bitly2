@@ -1,7 +1,8 @@
-import requests
+import argparse
 from dotenv import load_dotenv
 import os
-import argparse
+import requests
+
 
 
 def shorten_link(long_url, token):
