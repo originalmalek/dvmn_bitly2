@@ -3,13 +3,6 @@ from dotenv import load_dotenv
 import os
 import argparse
 
-def get_info(token):
-    url = 'https://api-ssl.bitly.com/v4/user'
-    header = {'Authorization': f'Bearer {token}'}
-
-    response = requests.get(url, headers=header)
-    print(response.json())
-
 
 def shorten_link(long_url, token):
     url = 'https://api-ssl.bitly.com/v4/shorten'
