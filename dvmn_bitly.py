@@ -48,7 +48,7 @@ def main():
     args = parser.parse_args()
     url = args.url
     print(url)
-    if url ==None:
+    if url == None:
         url = input('Enter link: ')
     # long_url = 'http://originalmalek.ru/'
     # short_url = 'bit.ly/2NW3suW' 'https://bit.ly/2NW3suW'
