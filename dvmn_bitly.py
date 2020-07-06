@@ -1,7 +1,8 @@
-import requests
+import argparse
 from dotenv import load_dotenv
 import os
-import argparse
+import requests
+
 
 def get_info(token):
     url = 'https://api-ssl.bitly.com/v4/user'
