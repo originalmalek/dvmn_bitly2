@@ -8,7 +8,7 @@ Python >=3.7
 
 Api token from [bitly.com](https://dev.bitly.com/get_started.html)
 
-Create file .env and add TOKEN
+Create file .env and add the code
 ```
 TOKEN = your_token_from_bitly
 ```
