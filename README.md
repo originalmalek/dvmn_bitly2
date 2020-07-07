@@ -1,7 +1,7 @@
 # Description
 The code shorts link and or get clicks about shortlink
 
-This project is using api bitly.com
+The project is using api bitly.com
 
 # Requirements
 Python >=3.7
