@@ -1,5 +1,5 @@
 # Description
-The code shorts link and or get clicks about shortlink
+The code shorts link and get clicks about shortlink
 
 The project is using api bitly.com
 
