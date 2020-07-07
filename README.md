@@ -14,8 +14,8 @@ TOKEN = your_token_from_bitly
 ```
 
 Modules:
-'requests 2.24.0'
-'python-dotenv 0.14.0
+'requests 2.24.0'  
+'python-dotenv 0.14.0'
 
 For installing the modules use command
 ```
@@ -26,6 +26,7 @@ pip install -r requirements.txt
 # How to use
 
 Install requirements
+
 Open and run 'dvmn_bitly.py'
 
 ### or
