@@ -32,15 +32,12 @@ def correct_bitly_link(url):
 
 def main():
     load_dotenv()
-    token = os.getenv('TOKEN')
+    token = os.getenv('BITLY_TOKEN')
 
     parser = argparse.ArgumentParser(description='The programm create short link or show clicks on short link')
-    parser.add_argument('--url', help='Enter short or long url')
+    parser.add_argument('url', help='Enter short or long url')
     args = parser.parse_args()
     url = args.url
-
-    if url == None:
-        url = input('Enter link: ')
 
     if url.startswith('bit.ly') or url.startswith('https://bit.ly'):
         try:
@@ -56,4 +53,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
